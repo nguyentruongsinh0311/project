@@ -14,6 +14,7 @@
 	<link rel="icon" type="icom" href="../img/logo.jpg">
 	<link rel="stylesheet" type="text/css" href="../home/home.css">
 	<link rel="stylesheet" type="text/css" href="about.css">
+	<link rel="stylesheet" type="text/css" href="../home/animate.css"
 	<!-- import icon font awesome -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
@@ -22,7 +23,34 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="contact-background">
-					<div class="background">	
+					<div class="background">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-12 col-sm-12 col-md-12">
+									<div class="wow fadeInLeft" data-wow-delay="0.5s">
+									<div class="text-content">
+										<h4>Windy Studio</h4>
+									</div>
+								</div>
+								<div class="wow fadeInRight" data-wow-delay="1s">
+									<div class="text-logo">
+										<h1>About Us</h1>
+									</div>
+								</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="wow fadeInUp" data-wow-delay="1.5s">
+								<div class="mousedown">
+									<div class="mouse-scroll">
+										<div class="mouse">
+											<div class="mouse-in"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							</div>
+						</div>	
 					</div>
 					
 				</div>
@@ -131,7 +159,7 @@
 			<div class="about-info">
 				<div class="row">
 					<div class="col-md-3 col-sm-3 col-xs-12">
-						<div class="ai-item">
+						<div class="ai-item wow fadeInLeft" >
 							<div class="ai-thumb">
 								<span class="icon64-meday"></span>
 							</div>
@@ -142,7 +170,7 @@
 						</div>
 					</div>
 					<div class="col-md-3 col-sm-3 col-xs-12">
-						<div class="ai-item">
+						<div class="ai-item wow fadeInUp">
 							<div class="ai-thumb">
 								<span class="icon64-place"></span>
 							</div>
@@ -153,27 +181,27 @@
 						</div>
 					</div>
 					<div class="col-md-3 col-sm-3 col-xs-12">
-					<div class="ai-item">
-						<div class="ai-thumb">
-							<span class="icon64-heart"></span>
+						<div class="ai-item wow fadeInUp">
+							<div class="ai-thumb">
+								<span class="icon64-heart"></span>
+							</div>
+							<div class="ai-number">
+								100
+							</div>
+							<div class="ai-desc">khách hàng</div>
 						</div>
-						<div class="ai-number">
-							100
-						</div>
-						<div class="ai-desc">khách hàng</div>
 					</div>
-				</div>
-				<div class="col-md-3 col-sm-3 col-xs-12">
-					<div class="ai-item">
-						<div class="ai-thumb">
-							<span class="icon64-img"></span>
+					<div class="col-md-3 col-sm-3 col-xs-12">
+						<div class="ai-item wow fadeInRight">
+							<div class="ai-thumb">
+								<span class="icon64-img"></span>
+							</div>
+							<div class="ai-number">
+								100
+							</div>
+							<div class="ai-desc">album ảnh</div>
 						</div>
-						<div class="ai-number">
-							100
-						</div>
-						<div class="ai-desc">album ảnh</div>
 					</div>
-				</div>
 
 				</div>
 			</div>
@@ -240,6 +268,14 @@
 	</div>
 
 </footer>
+<div class="phonering-alo-phone phonering-alo-green phonering-alo-show" id="phonering-alo-phoneIcon"">
+	<div class="phonering-alo-ph-circle"></div>
+	<div class="phonering-alo-ph-circle-fill"></div>
+	<a href="../contact/contact.html" class="pps-btn-img" title="Liên hệ">
+		<div class="phonering-alo-ph-img-circle"></div>
+	</a>
+</div>
+
 
 <div title="Về đầu trang" onmouseover="this.style.color='#c61e37'" onmouseout="this.style.color='#c34d5f'" id="top-up">
 	<i class="fa fa-arrow-circle-up" aria-hidden="true"></i></i></div>
@@ -249,6 +285,10 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="../home/home.js"></script>
+	<script type="text/javascript" src="../home/wow.min.js"></script>
+	<script type="text/javascript">
+		new WOW().init();
+	</script>
 
 </body>
 </html>
