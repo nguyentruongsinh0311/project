@@ -1,3 +1,3 @@
 # project
 
-SInh ngu nhu bo
+Sinh ngu nhu bo
