@@ -1,3 +1,3 @@
 # project
 
-Sinh ngu nhu lon
+This is my project, wedding website
