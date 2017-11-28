@@ -31,6 +31,12 @@
   background-image: none;
   border-radius: 4px;
 }
+@media (min-width: 768px){
+.navbar-right {
+    float: right!important;
+    margin-right: -30px;
+}
+}
 .navbar-toggle .icon-bar {
   display: block;
   width: 22px;
@@ -42,6 +48,9 @@
   text-transform: uppercase;
   font-size: 15px;
   color: #fff;
+}
+.nav>li>a{
+  padding: 10px 13px;
 }
 .nav>li>a:hover{
   text-decoration: none;
@@ -55,8 +64,6 @@
   transition: all ease 1s;
   height: 80px;
   padding-top: 15px;
-  text-align: center;
-  
 }
 #nav.change li a{
 	color: #eee;
@@ -75,19 +82,34 @@
   background-color:transparent;
   border-radius: 0;
 }
+.line{
+  border: 20px solid rgba(0,0,0,0);
+  border-bottom-color: rgba(195, 77, 95, 1);
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: -38px;
+  left: 100px;
+}
+
 .dropdown-menu{
   background-color: rgba(195, 77, 95, 1);
   background-clip: padding-box;
   border: 1px solid #ccc;
   border: 1px solid rgba(0,0,0,.15);
   border-radius: 4px;
+  margin-top: 15px;
   box-shadow: 0 6px 12px rgba(0,0,0,.175);
-
+  border-top: 0px;
+}
+.navbar-nav>li>.dropdown-menu{
+  margin-top: 15px; 
 }
 @media screen and (min-width: 768px){
 .carousel-caption {
     left: 7%;
-    padding-bottom: 280px;
+    bottom: 30%;
+}
 }
 .dropdown-menu>li>a{
   color: #fff;
@@ -661,7 +683,7 @@ position: absolute;
 .phonering-alo-ph-circle {
     width:160px;
     height:160px;
-    top:120px;
+    top:220px;
     right:20px;
     position:fixed;
     background-color:transparent;
@@ -717,7 +739,7 @@ position: absolute;
 .phonering-alo-ph-circle-fill {
     width:100px;
     height:100px;
-    top:150px;
+    top:250px;
     right:50px;
     position:fixed;
     background-color: #000;
@@ -773,7 +795,7 @@ position: absolute;
 .phonering-alo-ph-img-circle {
     width:60px;
     height:60px;
-    top:170px;
+    top:270px;
     right:70px;
     position:fixed;
     background:rgba(30,30,30,0.1) url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAABNmlDQ1BQaG90b3Nob3AgSUNDIHByb2ZpbGUAAHjarY6xSsNQFEDPi6LiUCsEcXB4kygotupgxqQtRRCs1SHJ1qShSmkSXl7VfoSjWwcXd7/AyVFwUPwC/0Bx6uAQIYODCJ7p3MPlcsGo2HWnYZRhEGvVbjrS9Xw5+8QMUwDQCbPUbrUOAOIkjvjB5ysC4HnTrjsN/sZ8mCoNTIDtbpSFICpA/0KnGsQYMIN+qkHcAaY6addAPAClXu4vQCnI/Q0oKdfzQXwAZs/1fDDmADPIfQUwdXSpAWpJOlJnvVMtq5ZlSbubBJE8HmU6GmRyPw4TlSaqo6MukP8HwGK+2G46cq1qWXvr/DOu58vc3o8QgFh6LFpBOFTn3yqMnd/n4sZ4GQ5vYXpStN0ruNmAheuirVahvAX34y/Axk/96FpPYgAAACBjSFJNAAB6JQAAgIMAAPn/AACA6AAAUggAARVYAAA6lwAAF2/XWh+QAAAB/ElEQVR42uya7W3CMBCG31QM4A1aNggTlG6QbpBMkHYC1AloJ4BOABuEDcgGtBOETnD9c1ERCH/lwxeaV8oPFGP86Hy+DxMREW5Bd7gRjSDSNGn4/RiAOvm8C0ZCRD5PSkQVXSr1nK/xE3mcWimA1ZV3JYBZCIO4giQANoYxMwYS6+xKY4lT5dJPreWZY+uspqSCKPYN27GJVBDXheVSQe494ksiEWTuMXcu1dld9SARxDX1OAJ4lgjy4zDnFsC076A4adEiRwAZg4hOUSpNoCsBPDGM+HqkNGynYBCuILuWj+dgWysGsNe8nwL4GsrW0m2fxZBq9rW0rNcX5MOQ9eZD8JFahcG5g/iKT671alGAYQggpYWvpEPYWrU/HDTOfeRIX0q2SL3QN4tGhZJukVobQyXYWw7WtLDKDIuM+ZSzscyCE9PCy5IttCvnZNaeiGLNHKuz8ZVh/MXTVu/1xQKmIqLEAuJ0fNo3iG5B51oSkeKnsBi/4bG9gYB/lCytU5G9DryFW+3Gm+JLwU7ehbJrwTjq4DJU8bHcVbEV9dXXqqP6uqO5e2/QZRYJpqu2IUAA4B3tXvx8hgKp05QZW6dJqrLTNkB6vrRURLRwPHqtYgkC3cLWQAcDQGGKH13FER/NATzi786+BPDNjm1dMkfjn2pGkBHkf4D8DgBJDuDHx9BN+gAAAABJRU5ErkJggg==) no-repeat center center;
@@ -1092,4 +1114,104 @@ position: absolute;
         -webkit-transform:rotate(0) scale(1) skew(1deg);
                 transform:rotate(0) scale(1) skew(1deg)
     }
+}
+
+
+/*------------------------reponsive--------------------------------------------------*/
+@media screen and (max-width: 912px){
+  .text-logo h1{
+    font-size: 90px;
+  }
+}
+
+
+@media screen and (max-width: 767px){
+  .line {
+    display: none;
+  }
+
+  .text-content h4{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 1.43;
+    font-family: 'Great Vibes', handwriting;
+    letter-spacing: 0.1em;
+    text-align: inherit;
+    color: #fff;
+}
+.text-logo h1{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 1.1;
+    font-family: 'Great Vibes', handwriting;
+    letter-spacing: 0em;
+    text-align: inherit;
+    color: #fff;
+}
+  
+.box-title .lb-name {
+    color: #f25860;
+    display: inline-block;
+    font-size: 45px;
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    position: relative;
+}
+.phonering-alo-ph-circle{
+  width: 80px;
+  height: 80px;
+  top: 120px;
+  }
+  .phonering-alo-ph-circle-fill{
+    width: 60px;
+    height: 60px;
+    top: 130px;
+    right: 30px;
+  }
+  .phonering-alo-ph-img-circle{
+    width: 40px;
+    height: 40px;
+    top: 140px;
+    right: 40px;
+  }
+  .color{
+    background-color: rgba(220,142,142,0.9);
+    margin-top: 15px;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #fff;
+}
+}
+
+/*---------------------------------------------------------------------------*/
+
+@media screen and (max-width: 500px){
+  .text-logo h1{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.1;
+    font-family: 'Great Vibes', handwriting;
+    letter-spacing: 0em;
+    text-align: inherit;
+    color: #fff;
+}
+.mouse-scroll .mouse{
+  height: 20px;
+  width: 12px;
+}
+.navbar-fixed-top{
+  padding: 40px 40px 0 40px;
+}
+.carousel-indicators{
+  display: none;
+}
 }
