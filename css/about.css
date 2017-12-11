@@ -1,6 +1,6 @@
 .contact-background .background{
 text-align: center;
-  background:url('bg2.jpg') top fixed no-repeat;
+  background:url('../img/bg-about2.jpg') top fixed no-repeat;
   background-size: cover;
  height: 100vh;
   margin-bottom: 0px;
@@ -78,7 +78,7 @@ color: #f25860;
 	padding: 10px 0;
 }
 .pimg1{
-	background-image: url('bg4.jpg');
+	background-image: url('../img/bg-about4.jpg');
 	min-height: 400px;
 	position: relative;
 	opacity: 0.8;
@@ -106,28 +106,28 @@ color: #f25860;
 	border-radius: 50%;
 }
 .ai-thumb .icon64-meday{
-	background-image: url('icon1.png');
+	background-image: url('../img/icon-bg1.png');
 	width: 64px;
 	height: 64px;
 	display: inline-block;
 	vertical-align: top;
 }
 .ai-thumb .icon64-place{
-	background-image: url('icon2.png');
+	background-image: url('../img/icon-bg2.png');
 	width: 64px;
 	height: 64px;
 	display: inline-block;
 	vertical-align: top;
 }
 .ai-thumb .icon64-heart{
-	background-image: url('icon3.png');
+	background-image: url('../img/icon-bg3.png');
 	width: 64px;
 	height: 64px;
 	display: inline-block;
 	vertical-align: top;
 }
 .ai-thumb .icon64-img{
-	background-image: url('icon4.png');
+	background-image: url('../img/icon-bg4.png');
 	width: 64px;
 	height: 64px;
 	display: inline-block;
@@ -148,7 +148,7 @@ color: #f25860;
 
 }
 .pimg2{
-	background-image: url('bg1.jpg');
+	background-image: url('../img/bg-about1.jpg');
 	min-height: 300px;
 	position: relative;
 	background-position: bottom;

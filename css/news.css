@@ -3,7 +3,7 @@
 }
 .service-background .background{
 text-align: center;
-  background:url('bg.jpg') top fixed no-repeat;
+  background:url('../img/bg-news.jpg') top fixed no-repeat;
   background-size: cover;
   height: 785px;
   margin-bottom: 0px;

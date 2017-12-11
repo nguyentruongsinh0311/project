@@ -1,6 +1,6 @@
 .contact-background .background{
 text-align: center;
-  background:url('bg.jpg') top fixed no-repeat;
+  background:url('../img/bg-contact.jpg') top fixed no-repeat;
   background-size: cover;
   height: 785px;
   margin-bottom: 0px;
@@ -75,7 +75,7 @@ color: #f25860;
 
 .contact-background .after-background{
 text-align: center;
-  background:url('bg.jpg') bottom fixed no-repeat;
+  background:url('../img/bg-contact.jpg') bottom fixed no-repeat;
   background-size: cover;
   height: 290px;
   margin-bottom: 0px;
