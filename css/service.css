@@ -5,7 +5,7 @@
 	text-align: center;
    background:url('../img/bg1-service.png') top fixed no-repeat;
   background-size: cover;
-  height: 785px;
+  height:100vh;
   margin-bottom: 0px;
   padding-top: 40px;
   width: 100%;
@@ -141,7 +141,7 @@ font-size: 16px;
 text-align: center;
   background:url('../img/bg2-service.jpg') top fixed no-repeat;
   background-size: cover;
-  height: 785px;
+  height: 100vh;
   margin-bottom: 0px;
   padding-top: 40px;
   width: 100%;
@@ -154,4 +154,34 @@ text-align: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+}
+
+/*-----------------------------makeup----------------------------------------------------------------------*/
+.service-makeup-background .background-makeup{
+text-align: center;
+  background:url('../img/bg3-service.jpg') top fixed no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin-bottom: 0px;
+  padding-top: 40px;
+  width: 100%;
+}
+.pimg3{
+	background-image: url('../img/img5-news.jpg');
+	min-height: 400px;
+	position: relative;
+	background-position: bottom;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+/*-----------------------------film----------------------------------------------------------------------*/
+.service-film-background .background-film{
+text-align: center;
+  background:url('../img/bg4-service.jpg') top fixed no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin-bottom: 0px;
+  padding-top: 40px;
+  width: 100%;
 }
